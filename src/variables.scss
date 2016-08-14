@@ -1,0 +1,14 @@
+// Colors
+$pink: #f17879;
+$white: #fff;
+$egg: #f5f3e8;
+$greyDark: #292927;
+$greyLight: lighten($greyDark, 70%);
+
+// All sizes and spacings are a multiple of this
+$rhythmBase: 8px;
+$dotSize: $rhythmBase / 2;
+
+// Fonts
+$serif: "Playfair Display", serif;
+$veryBigFont: $rhythmBase * 5;
