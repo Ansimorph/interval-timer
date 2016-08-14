@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import { addEntry, setStartTime, setEndTime, updateInterval } from '../vuex/actions';
+import { addEntry, setStartTime, setEndTime } from '../vuex/actions';
 
 const isRunning = false;
 let duration;
@@ -25,7 +25,6 @@ export default {
       addEntry,
       setEndTime,
       setStartTime,
-      updateInterval,
     },
   },
 
@@ -53,10 +52,6 @@ export default {
       this.isRunning = false;
       clearInterval(this.duration);
       this.setEndTime(0, Date.now());
-      // Start updating interval for first entry
-      this.interval = setInterval(() => {
-        this.updateInterval(0, Date.now());
-      }, 1000);
     },
   },
 
