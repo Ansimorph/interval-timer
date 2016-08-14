@@ -1,6 +1,8 @@
 # interval-timer
 
-> A stopwatch to help you keep track of recurrent tasks build using vue
+> A stopwatch to help you keep track of recurrent tasks build using [vue](http://vuejs.org/).
+
+![screen capture](https://raw.githubusercontent.com/ansimorph/interval-timer/master/interval-timer.gif)
 
 ## Build Setup
 
