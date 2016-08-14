@@ -6,5 +6,3 @@ new Vue({
   el: 'body',
   components: { App },
 });
-
-Vue.use(require('vue-moment'));
